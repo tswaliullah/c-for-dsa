@@ -9,7 +9,7 @@ void fun()
     int* y = new int;
 
     int x = 10;
-    *y = 10;
+    *y = 20;
 
     p = &x;
     q = y;
