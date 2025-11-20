@@ -13,18 +13,20 @@ int main()
         cin >> arr[i];
     }
 
-    int left = 0, right = n - 1;
-    int flag = 0;
+    int l = 0, r = n - 1;
+    int flag = 1;
 
-    for (int i = 0; left > right; i++)
+    for (int i = 0; l < r; i++)
     {
-        if (arr[left] != arr[right])
+        
+        if ( arr[l] != arr[r] )
         {
-            flag = 1;
+            flag = 0;
             break;
         }
-        left++;
-        right--;
+
+        l++;
+        r--;
     }
 
     if (flag)
