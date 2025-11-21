@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+#include <strings.h>
+using namespace std;
+
+class Student
+{
+public:
+    int ID;
+    char name[101];
+    char section[4];
+    int totalMarks;
+
+    // Student(int ID, char name[101], char section[4], int totalMarks)
+    // {
+    //     this->ID = ID;
+    //     strcpy(this->name, name);
+    //     strcpy(this->section, section);
+    //     this->totalMarks = totalMarks;
+    // }
+};
+
+int main()
+{
+
+    int totalMarks = -1;
+
+    Student topper;
+
+    // int n;
+    // cin >> n;
+
+    for (int i = 0; i < 3; i++)
+    {
+        Student tmp_stu;
+        cin >> tmp_stu.ID >> tmp_stu.name >> tmp_stu.section >> tmp_stu.totalMarks;
+
+        if (totalMarks < tmp_stu.totalMarks)
+        {
+            topper = tmp_stu;
+            totalMarks = tmp_stu.totalMarks;
+        }
+        else if (topper.totalMarks == tmp_stu.totalMarks)
+        {
+            if (topper.ID > tmp_stu.ID)
+            {
+                topper = tmp_stu;
+            }
+        }
+    }
+
+    cout << topper.ID << " " << topper.name << " " << topper.section << " " << topper.totalMarks << endl;
+
+    return 0;
+}
