@@ -1,17 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    
-    char S[100005];
-    cin >> S;
+int main() {
+    string S;
 
-    int strLength = strlen(S);
 
-    sort(S, S + strLength);
+    while (getline(cin, S)) {
 
-    cout << S;
-    
+        string cpyStr;
+
+
+        for (int i = 0; i < S.length(); i++)
+        {
+            if (S[i] != ' ')
+        {
+            cpyStr += S[i];
+        }
+        }
+        
+        sort(cpyStr.begin(), cpyStr.end());
+
+
+        cout << cpyStr << endl;
+    }
+
     return 0;
 }

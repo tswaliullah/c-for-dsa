@@ -19,7 +19,7 @@ int main()
     {
         cout << a[i] << " ";
     }
-    cout << "\n";
+    cout << endl;
 
     sort(a, a + n, greater<int>());
 
