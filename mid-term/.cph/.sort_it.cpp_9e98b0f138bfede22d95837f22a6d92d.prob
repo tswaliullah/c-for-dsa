@@ -1,0 +1,1 @@
+{"name":"Local: sort_it","url":"/home/waliullah/phitron/c++_for_dsa/mid-term/sort_it.cpp","tests":[{"id":1763696030076,"input":"5\n2 4 6 1 3","output":"1 2 3 4 6\n6 4 3 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/c++_for_dsa/mid-term/sort_it.cpp","group":"local","local":true}
