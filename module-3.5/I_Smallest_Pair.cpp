@@ -12,25 +12,25 @@ int main()
         int n;
         cin >> n;
 
-        int a[n];
+        long long int a[n];
         for (int j = 0; j < n; j++)
         {
             cin >> a[j];
         }
 
-        int target = INT_MAX;
+        long long int target = INT_MAX;
         for (int j = 0; j < n; j++)
         {
             for (int k = j + 1; k < n; k++)
             {
-                int logic = a[j] + a[k] + k - j;
+                long long int logic = a[j] + a[k] + k - j;
                 if (target > logic)
                 {
                     target = logic;
                 }
             }
         }
-        cout << target;
+        cout << target << endl;
     }
     return 0;
 }
