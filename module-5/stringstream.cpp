@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+
+    string s;
+    getline(cin, s);
+
+    stringstream ss(s);
+
+    string nWorld;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    ss >> nWorld;
+    cout << nWorld << endl;
+
+    // cout << s << endl;
+
+    return 0;
+}
