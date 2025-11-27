@@ -11,26 +11,34 @@ int main()
 
     string nWorld;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+    while (ss >> nWorld)
+    {
+        cout << nWorld << endl;
+    }
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+    /*
+        ss >> nWorld;
+        cout << nWorld << endl;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+        ss >> nWorld;
+        cout << nWorld << endl;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+        ss >> nWorld;
+        cout << nWorld << endl;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+        ss >> nWorld;
+        cout << nWorld << endl;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+        ss >> nWorld;
+        cout << nWorld << endl;
 
-    ss >> nWorld;
-    cout << nWorld << endl;
+        ss >> nWorld;
+        cout << nWorld << endl;
+
+        ss >> nWorld;
+        cout << nWorld << endl;
+    
+        */
 
     // cout << s << endl;
 
