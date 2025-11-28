@@ -9,34 +9,34 @@ int main()
 
     stringstream ss(s);
 
-    string nWorld;
+    string cutWord;
 
-    while (ss >> nWorld)
+    while (ss >> cutWord)
     {
-        cout << nWorld << endl;
+        cout << cutWord << endl;
     }
 
     /*
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
 
-        ss >> nWorld;
-        cout << nWorld << endl;
+        ss >> cutWord;
+        cout << cutWord << endl;
     
         */
 
