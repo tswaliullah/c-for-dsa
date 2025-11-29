@@ -1,0 +1,1 @@
+{"name":"Local: reverse_words","url":"/home/waliullah/phitron/c++_for_dsa/module-6/reverse_words.cpp","tests":[{"id":1764420728303,"input":"I Love You","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/c++_for_dsa/module-6/reverse_words.cpp","group":"local","local":true}
