@@ -1,0 +1,1 @@
+{"name":"Local: sort_arr_of_obj","url":"/home/waliullah/phitron/c++_for_dsa/module-7/sort_arr_of_obj.cpp","tests":[{"id":1764497611839,"input":"3\nJim 21 73\nAkib 12 87\nSamin 52 47","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/c++_for_dsa/module-7/sort_arr_of_obj.cpp","group":"local","local":true}
