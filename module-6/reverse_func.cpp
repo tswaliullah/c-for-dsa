@@ -13,7 +13,8 @@ int main()
     // {
     //     cin >> a[i];
     // }
-
+ 
+    
     // reverse(a, a + t);
 
     // for (int t : a)

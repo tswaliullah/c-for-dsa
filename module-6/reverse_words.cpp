@@ -17,7 +17,7 @@ int main()
     {
         reverse(nw.begin(), nw.end());
         cout << " " << nw;
-    }
+    } 
 
     return 0;
 }
