@@ -8,7 +8,6 @@ int main()
     cin >> s;
 
     string rs = "EGYPT";
-    
 
     int position = s.find(rs);
 
