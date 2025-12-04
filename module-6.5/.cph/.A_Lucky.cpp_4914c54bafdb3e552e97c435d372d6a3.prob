@@ -1,0 +1,1 @@
+{"name":"Local: A_Lucky","url":"/home/waliullah/phitron/c++_for_dsa/module-6.5/A_Lucky.cpp","tests":[{"id":1764833781742,"input":"5\n213132\n973894\n045207\n000000\n055776","output":"YES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/c++_for_dsa/module-6.5/A_Lucky.cpp","group":"local","local":true}
