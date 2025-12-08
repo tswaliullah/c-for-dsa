@@ -1,0 +1,1 @@
+{"name":"Local: Room Allocation","url":"/home/waliullah/phitron/c++_for_dsa/problem solving week/day 1/Room Allocation.cpp","tests":[{"id":1765090676780,"input":"2\n1\n1\n4\n4 4 4 4","output":"1\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/c++_for_dsa/problem solving week/day 1/Room Allocation.cpp","group":"local","local":true}
