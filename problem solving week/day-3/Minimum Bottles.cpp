@@ -18,7 +18,7 @@ int main()
         for (int i = 0; i < n; i++)
             sum += a[i];
 
-        cout << ceil((double)sum / x);
+        cout << ceil((double)sum / x) << endl;
     }
 
     return 0;
